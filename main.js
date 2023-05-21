@@ -8,8 +8,8 @@ window.onload = () => {
             const VisContName = document.querySelector(".container.visible").getAttribute("id");
 
             if (VisContName && tid && ContainerContainer[tid] !== VisContName) {
-                VisibleContainer.classList.remove("visible");
-                document.getElementById(ContainerContainer[tid]).classList.add("visible");
+                //VisibleContainer.classList.remove("visible");
+                //document.getElementById(ContainerContainer[tid]).classList.add("visible");
             }
         })
     )
